@@ -1,0 +1,132 @@
+body{
+    font-family: 'Suez One', serif;
+    text-align: center;
+    background-image: linear-gradient(black, white ,black ) ;
+    color: lightgreen;
+    text-shadow: 20px;
+    position: relative;
+}
+
+.modal{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100px;
+    background: -webkit-linear-gradient(rgb(44, 219, 44), rgb(44, 42, 42));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header{
+    max-width: 450px;
+    display: flex;
+    margin: auto;
+    padding: 10px 30px ;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+h1{
+    font-size: 35px;
+    line-height: 0.75;
+    background: -webkit-linear-gradient(lightgreen, rgb(44, 42, 42));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: rgba(94, 253, 94, 0.728);
+}
+
+.cell {
+    padding: 0;
+    width:40px; 
+    height:40px; 
+}
+
+.floor{
+    border: 1px solid #80573b;
+    background-color: rgba(196, 193, 193, 0.996);
+}
+
+.wall{
+    background-image: url('img/wall.png');
+    background-size: cover;
+    background-position: right;
+}
+
+.box{
+    background-image: url('img/box.png');
+    background-size: cover;
+}
+
+.target{
+    background-image: url('img/target.png');
+    background-size: cover;
+}
+
+.gamer{
+    background-image: url('img/gamer.png');
+    background-size: contain;
+}
+.gamer-red{
+    background-image: url('img/gamer-red.png');
+    background-size: contain;
+}
+.gamer-green{
+    background-image: url('img/gamer-green.png');
+    background-size: contain;
+}
+
+
+
+.gamer-on-target{
+    background-image: url('img/gamer-on-target.png');
+    background-size: cover;
+}
+
+.box-on-target{
+    background-image: url('img/box-on-target.png');
+    background-size: cover;
+}
+
+.clock{
+    background-image: url('img/clock.png');
+    background-size: cover;
+}
+.gold{
+    background-image: url('img/gold.png');
+    background-size: cover;
+}
+.glue{
+    background-image: url('img/glue.png');
+    background-size: cover;
+}
+
+
+.btn{
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgray;
+    color: green;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    font-size: larger;
+    background-color: white;
+}

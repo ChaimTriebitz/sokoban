@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sokoban</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body onkeyup="handleKey(event)">
+		<div class="modal">
+			<span class="wonLost"></span>
+		</div>
+		<div class="header">
+			<h1>SOKOBAN</h1>
+			<h2>score:<span class="score">100</span></h2>
+			<h2>targets:<span class="targets"></span></h2>
+		</div>
+		<table>
+			<tbody class="board"></tbody>
+		</table>
+		<button class="btn" onClick="window.location.reload()">Restart</button>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
